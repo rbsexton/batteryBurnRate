@@ -5,4 +5,8 @@ class BatteryBurnMock extends BatteryBurnRateView {
         BatteryBurnRateView.initialize();
     }
 
+	// Provide access to engine for testing
+	function getEngine() {
+		return engine;
+	}
 }
